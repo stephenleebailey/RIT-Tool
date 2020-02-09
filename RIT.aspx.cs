@@ -12,7 +12,7 @@ namespace RIT
 {
     public partial class _Default : Page
     {
-        private String strRitConnection = @"Data Source=ukvir10343\SQLEXPRESS;Initial Catalog=RIT_Dev;Persist Security Info=False;User ID=RIT_Tool;Password=RIT_Tool_Pa$$word1";
+        private String strRitConnection = @"";
         public List<Incident> incidents { get; set; }
         public DataTable dataTable { get; set; } = new DataTable();
         public class Incident
